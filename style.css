@@ -265,3 +265,55 @@ ul a{
     text-align:center;
     padding-top:5px;
 }
+
+@media (max-width: 768px){
+
+  .navbar{
+    flex-wrap:wrap;
+    height:auto;
+    padding:10px;
+  }
+
+  .shop-section{
+    margin-bottom:5vh;
+  }
+
+  .hero-msg{
+    width:95%;
+    padding:5px;
+  }
+  .nav-search{
+    width:100%;
+    margin:10px 0;
+  }
+
+  .panel{
+    flex-wrap:wrap;
+    height:auto;
+    padding:10px;
+  }
+
+
+  .panel-ops{
+    width:100%;
+    margin-top:5px;
+  }
+
+  .hero-section{
+    height:250px;
+  }
+
+  .box{
+    width:45%;
+  }
+
+  .foot-panel2{
+    flex-wrap:wrap;
+    height:auto;
+  }
+
+  .foot-panel2 ul{
+    width:45%;
+    margin-bottom:20px;
+  }
+}
